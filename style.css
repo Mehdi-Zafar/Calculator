@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa");
+
+* {
+  font-family: "Comfortaa", cursive;
+}
+body {
+  background-image: url("images/math.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+div.container {
+  margin: auto;
+  width: fit-content;
+  align-items: center;
+  /* border: 3px solid grey; */
+  box-shadow: 0 3px 5px black;
+  padding: 10px;
+  padding-inline: 20px;
+  text-align: center;
+  border-radius: 20px;
+  position: relative;
+  top: 100px;
+}
+
+h1.title {
+  color: black;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+input {
+  width: 70%;
+  height: 28px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+input:focus {
+  border: 2px solid brown;
+  background-color: gainsboro;
+}
+
+button {
+  padding: 5px;
+  padding-inline: 10px;
+  margin: 5px;
+  background-color: black;
+  color: #ff9090;
+  font-weight: bold;
+  font-size: large;
+  border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.85;
+}
+
+label {
+  font-size: 20px;
+}
+h3 {
+  background-color: black;
+  color: #ff9090;
+  padding: 10px;
+  width: 80%;
+  margin-inline: auto;
+  border-radius: 10px;
+  font-size: x-large;
+}
+
+@media screen and (max-width: 950px) {
+  body {
+    background-image: url("images/math2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}

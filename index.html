@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Calculator</h1>
+      <div class="buttondiv">
+        <button value="1">1</button>
+        <button value="2">2</button>
+        <button value="3">3</button>
+      </div>
+      <div class="buttondiv">
+        <button value="4">4</button>
+        <button value="5">5</button>
+        <button value="6">6</button>
+      </div>
+      <div class="buttondiv">
+        <button value="7">7</button>
+        <button value="8">8</button>
+        <button value="9">9</button>
+      </div>
+      <div class="buttondiv">
+        <button value="0">0</button>
+        <button value="clear">Clear</button>
+      </div>
+      <div>
+        <span><button value=" + ">+</button></span>
+        <span><button value=" - ">-</button></span>
+        <span><button value=" * ">*</button></span>
+        <span><button value=" / ">/</button></span>
+        <span><button onclick="func()">=</button></span>
+      </div>
+      <h3>Answer: <br /><span id="ans"></span></h3>
+    </div>
+  </body>
+</html>
